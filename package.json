@@ -1,0 +1,19 @@
+{
+    "name": "kzen-play-wright",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "@playwright/test": "^1.45.0",
+        "@types/node": "^20.12.8"
+    },
+    "scripts": {
+        "test": "npx playwright test",
+        "test-ui": "npx playwright test --ui",
+        "show": "npx playwright show-report"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "eslint": "^9.5.0"
+    }
+}
